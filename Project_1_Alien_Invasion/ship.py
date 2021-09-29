@@ -11,7 +11,7 @@ class Ship:
         self.screen_rect = ai_game.screen.get_rect()
 
         # Lädt das Bild des Schiffes und ruft dessen umgebendes Rechteck ab.
-        self.image = pygame.image.load("images/ship.bmp")
+        self.image = pygame.image.load("Project_1_Alien_Invasion\images\ship.bmp")
         self.rect = self.image.get_rect()
 
         # Platziert jedes neue Schiff mittig am unteren Bildschirmrand.
